@@ -1,0 +1,113 @@
+
+<!--#########################################################-->
+<!--#########################################################-->
+<!--##                                                     ##-->
+<!--## Site   : teste.com.br                               ##-->
+<!--## Autor  : Samuel Rodrigues da Silva                  ##-->
+<!--## Data   : 27/02/2020                                 ##-->
+<!--## Versão : /                                          ##-->
+<!--## Arquivo: Brasil                                     ##-->
+<!--##                                                     ##-->
+<!--#########################################################-->
+<!--#########################################################-->
+<!DOCTYPE HTML>
+<body>
+    <form class="formulario" method="post"> 
+    <center><h3><marquee> Envie uma mensagem preenchendo o formulario abaixo</marquee></h3></center>
+        
+   <form method="POST" action="">
+ <fieldset>
+	<legend>Dados Pessoais</legend>
+	<label>Nome:</label>
+	<input type="text" name="nome" id="nome" required/>
+	<label>E-mail:</label>
+	<input type:="email" name="email" id="email" required/>
+	<label>Sexo:</label>
+	<label><input type="radio" name="sexo" value="masculino" required>Masculino</label>
+ 	<label><input type="radio" name="sexo" value="feminino" required>Feminino</label>
+</fieldset><br>
+            
+            
+    
+            <fieldset>
+            <tr><th>
+                <label for="mensagem">Como foi a experiência:</label>
+                </th> 
+                <th><textarea name="mensagem" id="mensagem" placeholder="Como foi a experiencia?" required></textarea>
+                </th>
+            </tr> 
+            <tr><th>
+                <span>Deseja receber atualizações?</span>
+                </th> 
+                <th><input type="radio" name="novidades" id="sim" value="sim" checked><label for="sim">Sim</label>
+                    <input type="radio" name="novidades" id="nao" value="nao"><label for="nao">Não</label>
+                </th>
+            </tr>
+            </fieldset>
+            
+      <fieldset>
+      <tr><th>
+      <label><B>Escolha um Estado:</B></label>
+      <select id="estado" name="estado">
+    <option>Selecione o estado...</option>
+      <optgroup label="Norte">
+	<option value="AM">Amazonas</option>
+	<option value="RR">Roraima</option>
+	<option value="AP">Amapá</option>
+	<option value="PA">Pará</option>
+	<option value="TO">Tocantins</option>
+	<option value="RO">Rondônia</option>
+	<option value="AC">Acre</option>
+</optgroup>
+<optgroup label="Nordeste">
+	<option value="MA">Maranhão</option>
+	<option value="PI">Piauí</option>
+	<option value="CE">Ceará</option>
+	<option value="RN">Rio Grande do Norte</option>
+	<option value="PE">Pernanbuco</option>
+	<option value="PB">Paraiba</option>
+	<option value="SE">Sergipe</option>
+	<option value="AL">Alagoas</option>
+	<option value="BA">Bahia</option>
+</optgroup>
+<optgroup label="Centro-Oeste">
+	<option value="MT">Mato Groo</option>
+	<option value="MS">Mato Grosso do Sul</option>
+	<option value="GO">Goías</option>
+</optgroup>
+<optgroup label="Sudeste">
+	<option value="SP">São Paulo</option>
+	<option value="RJ">Rio de Janeiro</option>
+	<option value="ES">Espirito Santo</option>
+	<option value="MG">Mnas Gerais</option>
+</optgroup>
+<optgroup label="Sul">
+	<option value="PR">Paraná</option>
+	<option value="RS">Rio Grande do Sul</option>
+	<option value="ES">Espírito Santo</option>
+	<option value="SC">Santa Catarina</option>
+	</optgroup>
+  </select>
+  </th>
+  </tr>
+  </fieldset>
+  </form>
+  
+  <fieldset>
+     <tr><th>
+                <label for="telefone">Coloque seu telefone:</label>
+                </th> 
+                <th><input type="text" id="telefone" name="telefone" placeholder="Digite seu Telefone">
+                </th>
+            </tr>
+            </fieldset>
+            </form>
+        
+        
+       
+ 
+        <input type="submit" name="acao" value="Enviar">  
+    <center><a href="parte1.html">Voltar</a></center>
+    </body>
+    </form>
+    </body>
